@@ -14,7 +14,10 @@ release = 'alpha'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = []
+extensions = [
+    'myst_parser',
+    # other extensions
+]
 
 templates_path = ['_templates']
 exclude_patterns = []
