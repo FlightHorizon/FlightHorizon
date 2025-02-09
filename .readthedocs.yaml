@@ -10,11 +10,12 @@ build:
   tools:
     python: "3.13"
 
-sphinx:
-  configuration: source/conf.py
 python:
   install:
     - requirements: requirements.txt
+
+sphinx:
+  configuration: source/conf.py
 
 
 # Optionally, but recommended,
