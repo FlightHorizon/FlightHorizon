@@ -1,18 +1,58 @@
-.. FlightHorizon documentation master file, created by
-   sphinx-quickstart on Sun Feb  9 19:02:31 2025.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+.. FlightHorizon Documentation
 
-FlightHorizon documentation
-===========================
+Welcome to the **FlightHorizon** project documentation!
 
-Add your content using ``reStructuredText`` syntax. See the
-`reStructuredText <https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`_
-documentation for details.
+Getting Started
+===============
+Follow the instructions to set up and contribute to **FlightHorizon**.
 
+Categories
+==========
 
+Workspace
+---------
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
-   
-   test.md
+   :caption: Workspace
+
+   Workspace/index
+
+ReplicatedStorage
+-----------------
+.. toctree::
+   :maxdepth: 2
+   :caption: ReplicatedStorage
+
+   ReplicatedStorage/index
+
+ServerScriptService
+-------------------
+.. toctree::
+   :maxdepth: 2
+   :caption: ServerScriptService
+
+   ServerScriptService/index
+
+StarterGUI
+----------
+.. toctree::
+   :maxdepth: 2
+   :caption: StarterGUI
+
+   StarterGUI/index
+
+StarterPlayer
+-------------
+.. toctree::
+   :maxdepth: 2
+   :caption: StarterPlayer
+
+   StarterPlayer/index
+
+Systems
+-------
+.. toctree::
+   :maxdepth: 2
+   :caption: Systems
+
+   Systems/index
