@@ -39,7 +39,7 @@ StarterPlayer
    :maxdepth: 2
    :caption: StarterPlayer
 
-   StarterPlayer/index
+   StarterPlayer/starterplayer
 
    .. toctree::
       :maxdepth: 2
