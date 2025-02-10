@@ -9,13 +9,11 @@ Follow the instructions to set up and contribute to **FlightHorizon**.
 Categories
 ==========
 
-
 .. toctree::
    :maxdepth: 2
    :caption: Workspace
 
    Workspace/index
-
 
 .. toctree::
    :maxdepth: 2
@@ -23,13 +21,11 @@ Categories
 
    ReplicatedStorage/index
 
-
 .. toctree::
    :maxdepth: 2
    :caption: ServerScriptService
 
    ServerScriptService/index
-
 
 .. toctree::
    :maxdepth: 2
