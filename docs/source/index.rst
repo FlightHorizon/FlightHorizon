@@ -33,11 +33,25 @@ Categories
 
    StarterGUI/startergui
 
+StarterPlayer
+-------------
 .. toctree::
    :maxdepth: 2
    :caption: StarterPlayer
 
-   StarterPlayer/starterplayer
+   StarterPlayer/index
+
+   .. toctree::
+      :maxdepth: 2
+      :caption: StarterCharacterScript
+
+      StarterPlayer/StarterCharacterScripts/startercharacterscripts
+
+   .. toctree::
+      :maxdepth: 2
+      :caption: StarterPlayerScript
+
+      StarterPlayer/StarterPlayerScripts/starterplayerscripts
 
 .. toctree::
    :maxdepth: 2
