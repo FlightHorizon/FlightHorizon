@@ -13,34 +13,40 @@ Categories
    :maxdepth: 2
    :caption: Workspace
 
-   Workspace/index
+   Workspace/workspace
 
 .. toctree::
    :maxdepth: 2
    :caption: ReplicatedStorage
 
-   ReplicatedStorage/index
+   ReplicatedStorage/replicatedstorage
 
 .. toctree::
    :maxdepth: 2
    :caption: ServerScriptService
 
-   ServerScriptService/index
+   ServerScriptService/serverscriptservice
 
 .. toctree::
    :maxdepth: 2
    :caption: StarterGUI
 
-   StarterGUI/index
+   StarterGUI/startergui
 
 .. toctree::
    :maxdepth: 2
    :caption: StarterPlayer
 
-   StarterPlayer/index
+   StarterPlayer/starterplayer
+
+.. toctree::
+   :maxdepth: 2
+   :caption: DataStores
+
+   DataStores/datastores
 
 .. toctree::
    :maxdepth: 2
    :caption: Systems
 
-   Systems/index
+   Systems/systems
