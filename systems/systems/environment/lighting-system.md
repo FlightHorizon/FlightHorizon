@@ -1,3 +1,8 @@
+---
+description: System
+icon: list
+---
+
 # Lighting System
 
 Lighting System is system that is responsible for managing global Lighting withing the game environment.
@@ -18,8 +23,10 @@ Lighting System is system that is responsible for managing global Lighting withi
 
 ### Interactions and functions:
 
-* DayCycleManager - Uses the builtin `.ClockTime` value of the `Lighting` Service to change the positions of Sun and Moon. Has no other interactions and does not use any other dependencies.
-* LightingManager - Based on configuration and same `.ClockTime` event it determines the lighting settings like: hue, shadow softness, etc. for `Lighting`  in the environment. The Configuration is required.
+(Simple)
+
+* **DayCycleManager**  - Uses the builtin `.ClockTime` value of the `Lighting` Service to change the positions of Sun and Moon. Has no other interactions and does not use any other dependencies.
+* **LightingManager**  - Based on configuration and  `.ClockTime` event it determines the lighting settings like: hue, shadow softness, etc. and assigns them for `Lighting` of the game environment. The Configuration is required.
 
 
 

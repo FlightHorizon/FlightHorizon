@@ -29,6 +29,7 @@
   * [Environment](server-scripts/serverscriptservice/environment/README.md)
     * [DayCycleManager](server-scripts/serverscriptservice/environment/daycyclemanager.md)
     * [LightingManager](server-scripts/serverscriptservice/environment/lightingmanager.md)
+  * [Rewards](server-scripts/serverscriptservice/rewards.md)
 
 ## Server Storage
 
