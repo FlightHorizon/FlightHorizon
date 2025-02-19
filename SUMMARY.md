@@ -12,6 +12,12 @@
 
 * [ReplicatedStorage](replicatedstorage-scripts/replicatedstorage/README.md)
   * [Bakcups](replicatedstorage-scripts/replicatedstorage/bakcups.md)
+  * [CloneFolder](replicatedstorage-scripts/replicatedstorage/clonefolder.md)
+  * [Events](replicatedstorage-scripts/replicatedstorage/events.md)
+  * [Images](replicatedstorage-scripts/replicatedstorage/images.md)
+  * [Scripts](replicatedstorage-scripts/replicatedstorage/scripts/README.md)
+    * [Configuration](replicatedstorage-scripts/replicatedstorage/scripts/configuration.md)
+    * [Economy](replicatedstorage-scripts/replicatedstorage/scripts/economy.md)
 
 ## Server Scripts
 

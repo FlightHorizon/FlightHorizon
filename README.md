@@ -1,4 +1,8 @@
-# Group Overview
+---
+icon: subtitles
+---
+
+# Systems
 
 The [Broken link](broken-reference "mention") group details the interaction between various game components (scripts, events, data stores, etc.) that work together to execute specific actions.
 
