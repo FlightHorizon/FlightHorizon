@@ -1,3 +1,8 @@
+---
+description: Category
+icon: subtitles
+---
+
 # Player Scripts
 
 The [.](./ "mention") group will describe all scripts and resources that are contained within the `StarterPlayer`.

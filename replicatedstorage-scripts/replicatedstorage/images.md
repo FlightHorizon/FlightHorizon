@@ -1,6 +1,6 @@
 ---
-description: (self-explanatory)
 icon: folder-image
+description: Media Folder
 ---
 
 # Images

@@ -3,6 +3,8 @@
 ## Systems
 
 * [Systems](README.md)
+  * [Environment](systems/systems/environment/README.md)
+    * [Lighting System](systems/systems/environment/lighting-system.md)
 
 ## Workspace Scripts
 
@@ -18,10 +20,14 @@
   * [Scripts](replicatedstorage-scripts/replicatedstorage/scripts/README.md)
     * [Configuration](replicatedstorage-scripts/replicatedstorage/scripts/configuration.md)
     * [Economy](replicatedstorage-scripts/replicatedstorage/scripts/economy.md)
+    * [PlaneScripts](replicatedstorage-scripts/replicatedstorage/scripts/planescripts.md)
 
 ## Server Scripts
 
-* [ServerScriptService](server-scripts/serverscriptservice.md)
+* [ServerScriptService](server-scripts/serverscriptservice/README.md)
+  * [Environment](server-scripts/serverscriptservice/environment/README.md)
+    * [DayCycleManager](server-scripts/serverscriptservice/environment/daycyclemanager.md)
+    * [LightingManager](server-scripts/serverscriptservice/environment/lightingmanager.md)
 
 ## Server Storage
 

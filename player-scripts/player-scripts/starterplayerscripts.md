@@ -1,6 +1,6 @@
 ---
-description: (self-explanatory)
 icon: folder
+description: Default Folder
 ---
 
 # StarterPlayerScripts

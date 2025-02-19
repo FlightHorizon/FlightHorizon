@@ -1,5 +1,6 @@
 ---
 icon: folder-open
+description: Folder
 ---
 
 # Economy
