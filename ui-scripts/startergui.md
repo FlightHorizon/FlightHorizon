@@ -1,6 +1,6 @@
-# Group Overview
+# StarterGUI
 
-The [Broken link](broken-reference "mention") group will describe all scripts and resources that are contained withing the `ReplicatedStorage` of the Game.
+The [Broken link](broken-reference "mention") group will describe all scripts and resources that are contained within the `StarterGUI`.
 
 The description will provide you with following information:
 
