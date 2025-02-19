@@ -19,6 +19,7 @@
   * [Images](replicatedstorage-scripts/replicatedstorage/images.md)
   * [Scripts](replicatedstorage-scripts/replicatedstorage/scripts/README.md)
     * [Configuration](replicatedstorage-scripts/replicatedstorage/scripts/configuration.md)
+      * [LightingConfiguration](replicatedstorage-scripts/replicatedstorage/scripts/configuration/lightingconfiguration.md)
     * [Economy](replicatedstorage-scripts/replicatedstorage/scripts/economy.md)
     * [PlaneScripts](replicatedstorage-scripts/replicatedstorage/scripts/planescripts.md)
 

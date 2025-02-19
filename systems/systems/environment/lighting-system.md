@@ -9,27 +9,17 @@ Lighting System is system that is responsible for managing global Lighting withi
 
 ## Configuration
 
-### Location:
-
-`ReplicatedStorage/Scripts/Configuration/LightingConfiguration`
-
-### Configuration Description:
-
-Configuration contains sections that mainly represent [time-dependent gradients ](#user-content-fn-1)[^1]
-
-Sections that it currently contains and their formats:
-
-* **hueGradient** - Format: _`{time: number, color: Color3.fromRBG}`_
-* **shadowHueGradient** - Format: _`{time: number, color: Color3.fromRBG}`_
-* **environmentDiffuseGradient** - Format: _`{time: number, value: number}`_
-* **environmentSpecularGradient** - Format: _`{time: number, value: number}`_
-* **shadowSoftnessGradient** - Format: _`{time: number, value: number}`_
-* **sunraySpreadGradient** - Format: _`{time: number, value: number}`_
+[lightingconfiguration.md](../../../replicatedstorage-scripts/replicatedstorage/scripts/configuration/lightingconfiguration.md "mention") - Location: `ReplicatedStorage/Scripts/Configuration/LightingConfiguration`
 
 ## Scripts
 
-* [daycyclemanager.md](../../../server-scripts/serverscriptservice/environment/daycyclemanager.md "mention") - Location: ServerScriptService/Environment/DayCycleManager
-* LightingManager - Location: ServerScriptService/Environment/LightingManager
+* [daycyclemanager.md](../../../server-scripts/serverscriptservice/environment/daycyclemanager.md "mention") - Location: `ServerScriptService/Environment/DayCycleManager`
+* [lightingmanager.md](../../../server-scripts/serverscriptservice/environment/lightingmanager.md "mention") - Location: `ServerScriptService/Environment/LightingManager`
+
+### Interactions and functions:
+
+* DayCycleManager - Uses the builtin `.ClockTime` value of the `Lighting` Service to change the positions of Sun and Moon. Has no other interactions and does not use any other dependencies.
+* LightingManager - Based on configuration and same `.ClockTime` event it determines the lighting settings like: hue, shadow softness, etc. for `Lighting`  in the environment. The Configuration is required.
 
 
 
