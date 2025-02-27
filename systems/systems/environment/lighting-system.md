@@ -1,11 +1,11 @@
 ---
-description: System
 icon: list
+description: System
 ---
 
 # Lighting System
 
-Lighting System is system that is responsible for managing global Lighting withing the game environment.
+Lighting System is system that is responsible for managing global Lighting within the game environment.
 
 ## Current functions are:
 
