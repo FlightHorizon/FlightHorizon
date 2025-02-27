@@ -1,4 +1,11 @@
+---
+description: Configuration
+icon: gear-code
+---
+
 # LightingConfiguration
+
+## It is part of [lighting-system.md](../../../../systems/systems/environment/lighting-system.md "mention")
 
 ### Location:
 

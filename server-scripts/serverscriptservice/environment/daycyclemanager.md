@@ -7,6 +7,8 @@ description: Script
 
 ## Part of the  [lighting-system.md](../../../systems/systems/environment/lighting-system.md "mention")
 
+## Location: _`ServerScriptService/Environment/DayCycleManager`_
+
 ## Services and Dependencies
 
 * `RunService`

@@ -16,7 +16,7 @@ Lighting System is system that is responsible for managing global Lighting withi
 
 [lightingconfiguration.md](../../../replicatedstorage-scripts/replicatedstorage/scripts/configuration/lightingconfiguration.md "mention") - Location: `ReplicatedStorage/Scripts/Configuration/LightingConfiguration`
 
-## Scripts
+## Scripts and components
 
 * [daycyclemanager.md](../../../server-scripts/serverscriptservice/environment/daycyclemanager.md "mention") - Location: `ServerScriptService/Environment/DayCycleManager`
 * [lightingmanager.md](../../../server-scripts/serverscriptservice/environment/lightingmanager.md "mention") - Location: `ServerScriptService/Environment/LightingManager`
