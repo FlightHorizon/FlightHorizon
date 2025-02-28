@@ -44,22 +44,6 @@ System responsible for giving player a reward once a day. Used for encouraging p
 * RewardInfoUpdater (Client Side) - responsible for:
   * Updating GUI with reward info
 
-### Interactions:
-
-* (_A --< A) - interaction of side with itself. Where A is server or client._
-* _(A --> B) - interaction of 2 sides with one another. Where A is server or client and B is oposite side._
-* _(A <— B) - interaction where B affects A (e.g. what happens when received request/response, a 'push for action' by B)_
-
-**DailyRewardsManager <---> RewardInfoUpdater**
-
-1. When player joins the information is being loaded from datastore by `DailyRewardsManager` script _(S --< S)_
-2. In heartbeat loop `DailyRewardsManager` checks the reward statuses for each player. _(S --< S)_
-3. `RewardInfoUpdater`once initialized requests information about player ability to claim rewards (in general) from the server by using `CanClaimRewards` event. _(C --> S)_
-4. `RewardInfoUpdater`once received response from `CanClaimRewards` _(C <— S),_ it sets button status accordingly and updates reward status for each ["Reard Box"](#user-content-fn-1)[^1] by requesting info about each day by firing the `RewardStatusRequest` event. _(C --> S)_
-5. `DailyRewardManager`
-
-will be updated soon
 
 
-
-[^1]: Unit of daily reward. Encased block that contains: image, name and day of the reward. (UI element)
+<figure><img src="../../../.gitbook/assets/DailyRewardsInteraction.jpg" alt=""><figcaption><p>System logic</p></figcaption></figure>

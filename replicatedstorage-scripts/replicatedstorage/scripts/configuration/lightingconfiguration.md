@@ -1,6 +1,6 @@
 ---
-description: Configuration
 icon: gear-code
+description: Configuration
 ---
 
 # LightingConfiguration
@@ -13,7 +13,7 @@ icon: gear-code
 
 ### Configuration Description:
 
-Configuration contains sections that mainly represent [time-dependent gradients ](#user-content-fn-1)[^1]
+Configuration contains sections that mainly store [time-dependent gradients ](#user-content-fn-1)[^1]
 
 Sections that it currently contains and their formats:
 
