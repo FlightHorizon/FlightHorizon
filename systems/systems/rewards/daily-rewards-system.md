@@ -1,5 +1,6 @@
 ---
 description: System
+icon: list
 ---
 
 # Daily Rewards System
