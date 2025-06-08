@@ -1,13 +1,13 @@
 ---
-icon: scroll
 description: Script
+icon: scroll
 ---
 
 # LightingManager
 
 ## Part of the  [lighting-system.md](../../../systems/systems/environment/lighting-system.md "mention")
 
-## Location: _`ServerScriptService/Environment/`_&#x4C;ightingManager
+## Location: _`ServerScriptService/Environment/LightingManager`_
 
 ## Services and Dependencies
 
